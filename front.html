@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CollegeSearch</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="front.css">
+
+</head>
+
+<body>
+    <div data-role="Page" class="page">
+        <div data-role="Header">
+            <h1 style="text-align: center;">Search Your College/University Name</h1>
+
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Search College name ">
+                <li id="WFF"><a href ="">IIT Delhi</a></li>
+                <li><a href ="">IIT Madras</a></li>
+                <li><a href ="">IIT Bombay</a></li>
+                <li><a href ="">IIT BHU</a></li>
+                <li><a href ="">IIT KGP</a></li>
+
+
+            </ul>
+
+        </div>
+
+        <div class="Footer">
+           <h3 style="text-align: center;"> &copy;Made By Sumit</h3>
+
+        </div>
+
+
+
+
+
+    </div>
+    <script>
+
+        var button = document.getElementById("WFF");
+        
+        button.onclick = function () {
+            
+            window.open("iitdelhi.html");
+        }
+            </script>  
+
+
+
+</body>
+
+</html>
